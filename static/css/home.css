@@ -1,0 +1,55 @@
+/* Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Fullscreen background with logo image */
+.hero {
+    background: url('kidney.webp') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    color: rgb(199, 195, 195);
+    position: relative;
+}
+
+/* Navigation bar at the top */
+.top-bar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 40px;
+}
+
+/* Navigation links */
+.nav-links a {
+    margin-left: 20px;
+    color: rgb(169, 165, 165);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 5px;
+    background-color: rgba(152, 148, 148, 0.4);
+    transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: rgba(214, 205, 205, 0.6);
+}
+
+/* Centered title */
+.center-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.center-text h1 {
+    font-size: 2.5em;
+    text-shadow: 2px 2px 10px black;
+    color: white;
+    margin: 0;
+}

@@ -1,0 +1,44 @@
+.result-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.result-container h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: red;
+    font-weight: bold;
+}
+
+.header {
+    background: linear-gradient(90deg, #fc466b, #3f5efb);
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+}
+
+.header p {
+    font-weight: 300;
+    font-size: 1em;
+    margin-top: 5px;
+}
+
+.result-image {
+    max-width: 200px;
+    margin-top: 10px;
+}
+
+.back-link {
+    text-decoration: none;
+    color: #3f5efb;
+    font-weight: bold;
+}
